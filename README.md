@@ -1,3 +1,3 @@
 # BitcoinDataAnalysis
 
-utilizing Jupyter notebook
+utilizing Jupyter notebook in Visual Studio Code
