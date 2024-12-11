@@ -3,13 +3,25 @@ Used Jupyter notebook
 
 Goal: 
 
-Workflow: 
-- Understand the use case
-- Run ETL pipeline
-- EDA
-- Conclusions
+Lifecycle of a data analytics project: 
+1. Understand the (business) use case
+- write down all the project requirements
+- where to extract data (company's database vs 3rd party APIs, etc)
+2. Run ETL pipeline
+  E: Extract (forms raw data - ie. JSON or CSV files) - use SQL to extract data very easily
+    *JSON = key value pair data 
+  T: Transform (into featured data)
+    - takes most of the time
+    - Pre-processing: fixing error, removing dups, fix data types, fill missing values, etc
+  L: Load
+    - big data engineer receives the prepared data and loads/exports the data into platforms (for further analysis)
+3. Exploratory Data Analysis: EDA
+- analyzing the loaded data
+  ie. e-commerce company -> which month customers have bought more number of product? month vs. revenue graph?  
+4. Make conclusions
 
-Steps: 
+
+Summarized Steps: 
 1. Data extraction - collect data from multiple sources (raw data)
 2. Data transformation - clean and structurize the data into an acceptable format
 3. Load Data - use the transformed, featurized data to perform various data analysis
