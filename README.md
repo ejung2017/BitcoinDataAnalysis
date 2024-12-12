@@ -1,7 +1,7 @@
 # BitcoinDataAnalysis
 Used Jupyter notebook
 
-Goal: 
+Goal: What was the change in price of the Bitcoin overtime? 
 
 Lifecycle of a data analytics project: 
 1. Understand the (business) use case
